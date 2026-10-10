@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Animated CI/CD pipeline: commit, test, build">
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0F1B33"/><stop offset="1" stop-color="#0A1226"/></linearGradient>
+<linearGradient id="pl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5CD6F0"/><stop offset="1" stop-color="#8F86FF"/></linearGradient>
+<filter id="pg" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5"/></filter></defs>
+<rect x="1" y="1" width="998" height="248" rx="24" fill="url(#pbg)" stroke="#96B4E6" stroke-opacity=".22"/>
+<text x="36" y="44" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16" fill="#93A3BF">on push to main · github actions</text>
+<line x1="270" y1="110" x2="400" y2="110" stroke="#96B4E6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="6 8"/>
+<line x1="600" y1="110" x2="730" y2="110" stroke="#96B4E6" stroke-opacity=".3" stroke-width="2" stroke-dasharray="6 8"/>
+<rect x="70" y="62" width="200" height="96" rx="18" fill="#0F1B33" stroke="#96B4E6" stroke-opacity=".28"/>
+<rect x="70" y="62" width="200" height="96" rx="18" fill="#5CD6F0" fill-opacity=".10" stroke="#5CD6F0" stroke-width="2" opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.000;0.140" calcMode="discrete" dur="9s" repeatCount="indefinite"/></rect>
+<text x="170" y="112" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E9EFFA">Commit</text>
+<text x="170" y="138" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="15" fill="#93A3BF">git push</text>
+<g transform="translate(170,40)" opacity="1"><animate attributeName="opacity" values="1;0" keyTimes="0.000;0.140" calcMode="discrete" dur="9s" repeatCount="indefinite"/><g transform="translate(0,0)"><path d="M-9 0 A9 9 0 0 1 9 0" fill="none" stroke="#5CD6F0" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur=".9s" repeatCount="indefinite"/></path></g></g>
+<g transform="translate(170,40)" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.140;.95" calcMode="discrete" dur="9s" repeatCount="indefinite"/><circle r="12" fill="#5EE3A1"/><path d="M-5 0 L-1.5 4 L5.5 -4" fill="none" stroke="#04140C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="400" y="62" width="200" height="96" rx="18" fill="#0F1B33" stroke="#96B4E6" stroke-opacity=".28"/>
+<rect x="400" y="62" width="200" height="96" rx="18" fill="#5CD6F0" fill-opacity=".10" stroke="#5CD6F0" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.000;0.140;0.480" calcMode="discrete" dur="9s" repeatCount="indefinite"/></rect>
+<text x="500" y="112" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E9EFFA">Test</text>
+<text x="500" y="138" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="15" fill="#93A3BF">pytest</text>
+<g transform="translate(500,40)" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.000;0.140;0.480" calcMode="discrete" dur="9s" repeatCount="indefinite"/><g transform="translate(0,0)"><path d="M-9 0 A9 9 0 0 1 9 0" fill="none" stroke="#5CD6F0" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur=".9s" repeatCount="indefinite"/></path></g></g>
+<g transform="translate(500,40)" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.480;.95" calcMode="discrete" dur="9s" repeatCount="indefinite"/><circle r="12" fill="#5EE3A1"/><path d="M-5 0 L-1.5 4 L5.5 -4" fill="none" stroke="#04140C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<rect x="730" y="62" width="200" height="96" rx="18" fill="#0F1B33" stroke="#96B4E6" stroke-opacity=".28"/>
+<rect x="730" y="62" width="200" height="96" rx="18" fill="#5CD6F0" fill-opacity=".10" stroke="#5CD6F0" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.000;0.480;0.780" calcMode="discrete" dur="9s" repeatCount="indefinite"/></rect>
+<text x="830" y="112" text-anchor="middle" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E9EFFA">Build</text>
+<text x="830" y="138" text-anchor="middle" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="15" fill="#93A3BF">docker build</text>
+<g transform="translate(830,40)" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0.000;0.480;0.780" calcMode="discrete" dur="9s" repeatCount="indefinite"/><g transform="translate(0,0)"><path d="M-9 0 A9 9 0 0 1 9 0" fill="none" stroke="#5CD6F0" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur=".9s" repeatCount="indefinite"/></path></g></g>
+<g transform="translate(830,40)" opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.780;.95" calcMode="discrete" dur="9s" repeatCount="indefinite"/><circle r="12" fill="#5EE3A1"/><path d="M-5 0 L-1.5 4 L5.5 -4" fill="none" stroke="#04140C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g opacity="1"><circle r="12" fill="#8F86FF" fill-opacity=".65" filter="url(#pg)"/><circle r="5" fill="#fff"/>
+<animateMotion dur="9s" repeatCount="indefinite" path="M170 110 L830 110" keyPoints="0;0;0.5;0.5;1;1" keyTimes="0;0.10;0.16;0.45;0.52;1" calcMode="linear"/>
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.78;.82;1" dur="9s" repeatCount="indefinite"/></g>
+<text x="36" y="214" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16" fill="#93A3BF" opacity="1">Pushing a1b2c3d to main.<animate attributeName="opacity" values="1;0" keyTimes="0;0.140" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+<text x="36" y="214" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16" fill="#93A3BF" opacity="0">Running pytest: 13 tests passed.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.140;0.480" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+<text x="36" y="214" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16" fill="#93A3BF" opacity="0">Building the Docker image.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.480;0.780" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+<text x="36" y="214" font-family="'SF Mono',Menlo,Consolas,'Courier New',monospace" font-size="16" fill="#5EE3A1" opacity="0">Image built. The commit is safe to ship.<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.780;0.950" calcMode="discrete" dur="9s" repeatCount="indefinite"/></text>
+<text x="964" y="214" text-anchor="end" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#93A3BF">Illustrative run</text>
+</svg>
