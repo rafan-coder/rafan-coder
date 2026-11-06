@@ -1,0 +1,44 @@
+<svg viewBox="0 0 800 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="c0"><rect x="155.8" y="0" width="0" height="56">
+      <animate attributeName="width" values="0;0;488.4;488.4;0;0" keyTimes="0;0.0;0.076;0.18;0.19;1" dur="19.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+<clipPath id="c1"><rect x="162.4" y="0" width="0" height="56">
+      <animate attributeName="width" values="0;0;475.2;475.2;0;0" keyTimes="0;0.2;0.276;0.38;0.39;1" dur="19.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+<clipPath id="c2"><rect x="142.6" y="0" width="0" height="56">
+      <animate attributeName="width" values="0;0;514.8;514.8;0;0" keyTimes="0;0.4;0.476;0.58;0.59;1" dur="19.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+<clipPath id="c3"><rect x="149.2" y="0" width="0" height="56">
+      <animate attributeName="width" values="0;0;501.6;501.6;0;0" keyTimes="0;0.6;0.676;0.78;0.79;1" dur="19.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+<clipPath id="c4"><rect x="175.6" y="0" width="0" height="56">
+      <animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0;0.8;0.876;0.98;0.99;1" dur="19.0s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+  <text x="155.8" y="36" font-size="22" font-family="Courier New, Consolas, monospace" fill="#00e5ff" textLength="488.4" lengthAdjust="spacingAndGlyphs" clip-path="url(#c0)">Building and troubleshooting networks</text>
+  <rect y="12" width="2.5" height="30" fill="#ff9f1c" opacity="0">
+    <animate attributeName="x" values="155.8;155.8;644.2;644.2;155.8;155.8" keyTimes="0;0.0;0.076;0.18;0.19;1" dur="19.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;1;0;0" keyTimes="0;0.0;0.18;0.19;1" dur="19.0s" repeatCount="indefinite"/>
+  </rect>
+<text x="162.4" y="36" font-size="22" font-family="Courier New, Consolas, monospace" fill="#00e5ff" textLength="475.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#c1)">TCP/IP | VLANs | Routing | Switching</text>
+  <rect y="12" width="2.5" height="30" fill="#ff9f1c" opacity="0">
+    <animate attributeName="x" values="162.4;162.4;637.6;637.6;162.4;162.4" keyTimes="0;0.2;0.276;0.38;0.39;1" dur="19.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;1;0;0" keyTimes="0;0.2;0.38;0.39;1" dur="19.0s" repeatCount="indefinite"/>
+  </rect>
+<text x="142.6" y="36" font-size="22" font-family="Courier New, Consolas, monospace" fill="#00e5ff" textLength="514.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#c2)">Moving from on-prem to Cloud Networking</text>
+  <rect y="12" width="2.5" height="30" fill="#ff9f1c" opacity="0">
+    <animate attributeName="x" values="142.6;142.6;657.4;657.4;142.6;142.6" keyTimes="0;0.4;0.476;0.58;0.59;1" dur="19.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;1;0;0" keyTimes="0;0.4;0.58;0.59;1" dur="19.0s" repeatCount="indefinite"/>
+  </rect>
+<text x="149.2" y="36" font-size="22" font-family="Courier New, Consolas, monospace" fill="#00e5ff" textLength="501.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#c3)">Monitoring with Prometheus and Grafana</text>
+  <rect y="12" width="2.5" height="30" fill="#ff9f1c" opacity="0">
+    <animate attributeName="x" values="149.2;149.2;650.8;650.8;149.2;149.2" keyTimes="0;0.6;0.676;0.78;0.79;1" dur="19.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;1;0;0" keyTimes="0;0.6;0.78;0.79;1" dur="19.0s" repeatCount="indefinite"/>
+  </rect>
+<text x="175.6" y="36" font-size="22" font-family="Courier New, Consolas, monospace" fill="#00e5ff" textLength="448.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#c4)">Available immediately | Dubai, UAE</text>
+  <rect y="12" width="2.5" height="30" fill="#ff9f1c" opacity="0">
+    <animate attributeName="x" values="175.6;175.6;624.4;624.4;175.6;175.6" keyTimes="0;0.8;0.876;0.98;0.99;1" dur="19.0s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" calcMode="discrete" values="0;1;1;0;0" keyTimes="0;0.8;0.98;0.99;1" dur="19.0s" repeatCount="indefinite"/>
+  </rect>
+</svg>

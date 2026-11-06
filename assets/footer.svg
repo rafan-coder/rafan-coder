@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1000 130" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0b2a4a"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1000" height="130" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1000" height="130" fill="url(#bg)"/>
+    <text x="500" y="52" text-anchor="middle" font-size="22" font-weight="600" fill="#ffffff">Thanks for visiting. Let's build reliable networks together.</text>
+    <text x="500" y="80" text-anchor="middle" font-size="15" fill="#7ee7ff">rafanrahuf@gmail.com</text>
+    <path d="M0 105 q125 -12 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 L2000 140 L0 140 Z" fill="#1f6feb" fill-opacity="0.35">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 116 q125 -9 250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 t250 0 L2000 140 L0 140 Z" fill="#00e5ff" fill-opacity="0.28">
+      <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
